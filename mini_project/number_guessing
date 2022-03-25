@@ -23,7 +23,7 @@ def guess_num(attempt):
         elif attempt < target:
             print('Слишком мало, попробуйте еще раз')
             attempt = int(input())
-    return 'Вы угадали, поздравляем!'
+    return print('Вы угадали, поздравляем!')
 
 
 print("Попробуйте угадать число от 1 до 100!")
