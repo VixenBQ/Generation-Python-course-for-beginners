@@ -28,7 +28,7 @@ def upper_limit():
 def is_number(answer):
     global border
     if answer.isdigit():
-        if 0 < int(answer) < border:
+        if 0 < int(answer) <= border:
             return True
     return False
 
